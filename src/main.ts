@@ -10,7 +10,7 @@ async function bootstrap() {
 
 	// configuraciones globales
 	app.enableCors(); // cors
-	app.setGlobalPrefix('apiTienda/v1'); // prefijo para las rutas o endpoints
+	app.setGlobalPrefix('apiTienda'); // prefijo para las rutas o endpoints
 
 	await app.listen(port);
 	console.log(`Aplicación corriendo en el puerto ${port}`);
