@@ -3,7 +3,6 @@ import { AuthService } from '../services/auth.service';
 import { CreateUserDto } from '../dto/create-user.dto';
 import { LoginUserDto } from '../dto/login-user.dto';
 import { loginSchema, registerSchema } from '../schemas/auth-validacion.schemas';
-import * as Joi from 'joi';
 
 @Controller('/v1/auth')
 export class AuthController {
